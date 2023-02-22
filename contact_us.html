@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content=" width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale=1.0, minimun-scale = 1.0">
+<link rel="stylesheet" href="contact_us.css">
+<link rel="shortcut icon" type="image/ico" href="Imgs/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+<script src="register_login.js"></script>
+</head>
+<body class="login_body">
+    
+            <nav class="navbar">
+                <a href="index.html" class="navbar-logo"><img src="Imgs/logo.webp"></a>
+                <ul class="navbar-nav-menu">
+                    <li class="navbar-menu-items"><a href="index.html" class="navbar-menu-link">Home</a></li>
+                    <li class="navbar-menu-items"><a href="beaches.html" class="navbar-menu-link">Beaches</a></li>
+                    <li class="navbar-menu-items"><a href="popular_places.html" class="navbar-menu-link">Popular places</a></li>
+                    <li class="navbar-menu-items"><a href="contact_us.html" class="navbar-menu-link">Contact us</a></li>
+                </ul>
+                <div class="open">
+                    <span class="header-burgerAfter"></span>
+                    <span class="header-burger"></span>
+                    <span class="header-burgerBefore"></span>
+                </div>
+                <a href="https://www.google.com/" class="navbar-search"><img src="Imgs/lupa.png"></a>
+            </nav>
+    
+<div class="form">
+        <p class="form_text">Thank you for your interest in our site California Rest. To contact us, please use the form below. You may also reach us at support @ californiresst.com, PO Box 121 Roslyn WA 98941, or 097 000 0 885‬.</p>
+	
+    <form onsubmit=" return validateForm();" class="form_fields" id="form_fields" name="form_fields">
+        <fieldset class="form_fieldset">
+            <legend class="form_or">Fill It</legend>
+            <textarea type="text" placeholder="Name" required minlength="3"/id="first_name" class="form_field"></textarea>
+            <textarea type="text" placeholder="Last Name" required minlength="3"/id="last_name" class="form_field"></textarea>
+            <textarea type="text" placeholder="Email" class="form_field" required minlength="2"></textarea>
+            <textarea type="text" placeholder="Comments or Questions" class="form_field comments_field"></textarea>
+            <input type="submit" value="Submit" id="submit_btn" class="submit_btn">
+        </fieldset>
+    </form>
+    </div>
+    
+    <footer class="footer">
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                    <div class="wave" id="wave2"></div>
+                    <div class="wave" id="wave3"></div>
+                    <div class="wave" id="wave4"></div>
+                </div>
+                <ul class="social_icon">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <p class="footer_text"> &copy; 2023 Tihon Gorobets | All Rights Reserved california.com - California & California Rest</p>
+            </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
