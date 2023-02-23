@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
         <div class="main-page">
@@ -33,7 +34,7 @@
             <section class="hot-news content">
               <h2 class="section-title blue">Popular Places</h2>  
               <div class="hot-news-wrap">
-                  <div class="hot-news-post">
+                  <div class="hot-news-post wow animate__animated animate__fadeIn">
                       <img src="Imgs/14.png" class="hot-news-img">
                       <div class="cont_text">
                             <h3 class="hot-news-title">Prophecy Hotel & Spa in Emirate</h3>
@@ -48,7 +49,7 @@
                     </div>
                   </div>
                   
-                  <div class="hot-news-post-2">
+                  <div class="hot-news-post-2 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
                     <div class="post_inside">
                         <div class="img-div">
                             <img src="Imgs/15.png" class="hot-news-img">
@@ -74,7 +75,7 @@
                     </div>
                   </div>
                   
-                  <div class="hot-news-post-2">
+                  <div class="hot-news-post-2 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
                          <div class="post_inside">
                             <div class="img-div">
                                 <img src="Imgs/17.png" class="hot-news-img">
@@ -100,10 +101,10 @@
                         </div>
                     </div>
                   
-                  <div class="hot-news-post-3">
+                  <div class="hot-news-post-3 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
                       <div class="post_inside" align="center">
                         <img src="Imgs/19.png" class="hot-news-img">
-                        <h3 class="hot-news-title">Prism Hotel</h3>
+                        <h3 class="hot-news-title center_text">Prism Hotel in Ireland</h3>
                       </div>
                      <img src="Imgs/20.png" class="hot-news-img-2">
                   <div class="post_inside" align="right">
@@ -135,7 +136,7 @@
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <p class="footer_text"> &copy; 2023 Tihon Gorobets | All Rights Reserved california.com - California & California Rest</p>
+                <div class="footer_text"><p class="footer_text"> &copy; 2023 Tihon Gorobets | All Rights Reserved california.com - California & California Rest</p></div>
             </footer>
                 
             </section>
@@ -144,5 +145,7 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <script src="script.js"></script>
+        <script src="wow.min.js"></script>
+        <script>new WOW().init();</script>
     </body>
 </html>
