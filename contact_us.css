@@ -283,9 +283,6 @@ span{
     }
 }
 @media (max-width: 768px){
-    .form{
-        padding: 20px 45px 25px;
-    }
     .open{
         display: block;
     }
